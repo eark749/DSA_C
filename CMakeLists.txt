@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(c__
         hello.cpp
-        test.cpp)
+        test.cpp
+        function.cpp)
