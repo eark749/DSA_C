@@ -10,5 +10,7 @@ int main() {
     cin>>base;
     cout<<"Enter exponent: ";
     cin>>expo;
-    cout << pow(base,expo);
+    //cout << pow(base,expo);
+    double power = pow(base,expo);
+    cout << power<<" this is the power \n";
 }
